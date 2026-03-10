@@ -23,6 +23,7 @@ A self-contained air quality monitor that reads CO₂-equivalent gas concentrati
 ---
 
 ## 1. Overview
+![Project preview](image-source)
 
 AirWatch reads air quality using an MQ135 sensor every **2 seconds**, converts the raw ADC value into a **CO₂ PPM estimate**, then maps that to a standard **AQI index**. The result is shown on a 128×64 OLED display and served as JSON over Wi-Fi to a browser dashboard.
 
@@ -225,6 +226,8 @@ The response includes `Access-Control-Allow-Origin: *` so any browser tab or loc
 ---
 
 ## 8. Web Dashboard
+
+![webdashboard](image-source)
 
 Open `airwatch_dashboard.html` in any modern browser. It runs a **demo animation** automatically before connecting to hardware.
 
